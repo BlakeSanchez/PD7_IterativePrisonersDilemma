@@ -3,12 +3,12 @@
 #     team_name: a string
 #     strategy_name: a string
 #     strategy_description: a string
-#     move: A function that returns 'c' or 'b'
-####
-
+#     move: A function that returns 'c'
+'''
 team_name = 'ULikeThat'
 strategy_name = 'Win'
 strategy_description = 'analyze the oppenents history to accurately determine the logical move.'
+'''
     
 def move(my_history, their_history, my_score, their_score):
     ''' Ar.guments accepted: my_history, their_history are strings.
