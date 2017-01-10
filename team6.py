@@ -11,7 +11,7 @@ strategy_name = 'Win'
 strategy_description = 'analyze the oppenents history to accurately determine the logical move.'
     
 def move(my_history, their_history, my_score, their_score):
-    ''' Arguments accepted: my_history, their_history are strings.
+    ''' Ar.guments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
     Make my move.
